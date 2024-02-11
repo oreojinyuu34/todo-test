@@ -11,3 +11,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* navbar */
+/* ナビゲーションバー全体をビューポートの幅に */
+.navbar {
+  width: auto;
+}
+
+
+/* App.css */
+.app {
+  margin: auto;
+  height: 100%;
+}
+
+.taskCard {
+  width: 250px;
+  height: 100%;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.taskAddInput-checkbox {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.taskAddInput-checkbox-icon {
+  margin-right: 10px;
+}
+
+/* styles.css に追加 */
+/* CSSファイルに追加 */
+.react-grid-item {
+  height: 100%;
+}
+
+.textarea:not([rows]) {
+  max-height: 40em;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.a {
+  background-color: aquamarine;
+}
+
+.b {
+  background-color: bisque;
+}
+
+.c {
+  background-color: cadetblue;
+}
