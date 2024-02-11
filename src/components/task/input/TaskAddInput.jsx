@@ -25,16 +25,13 @@ export const TaskAddInput = ({
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <label class="taskAddInput-checkbox">
-          <input className="taskAddInput-checkbox-icon" type="checkbox" />
-          <input
-            className="input checkbox"
-            type="text"
-            placeholder="add a task"
-            onChange={handleChange}
-            value={inputText}
-          />
-        </label>
+        <input
+          className="input checkbox"
+          type="text"
+          placeholder="予定を追加"
+          onChange={handleChange}
+          value={inputText}
+        />
       </form>
     </div>
   );

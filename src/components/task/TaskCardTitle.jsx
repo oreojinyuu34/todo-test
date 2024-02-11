@@ -23,10 +23,7 @@ const TaskCardTitle = () => {
   };
 
   return (
-    <div
-      className="title is-size-5 has-text-weight-bold "
-      onClick={handleClick}
-    >
+    <div className="title has-text-weight-bold " onClick={handleClick}>
       {isclicked ? (
         <form onSubmit={handleSubmit} onBlur={handleBlur}>
           <input
