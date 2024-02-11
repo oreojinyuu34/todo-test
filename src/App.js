@@ -52,6 +52,7 @@ const App = () => {
           </li>
           <li className="is-size-6">・入力したいときは移動をOFFにして！</li>
           <li className="is-size-6">・カードの追加は4個まで！</li>
+          <li className="is-size-6">・編集ボタン忘れてた！</li>
         </ul>
       </div>
       <div className="columns px-6 py-2 mb-0">
