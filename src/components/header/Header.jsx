@@ -8,7 +8,7 @@ const Header = () => {
       >
         <div className="navbar-brand has-text-weight-bold is-size-5">
           <a className="navbar-item" href="/" aria-label="Home">
-            todo-test
+            やる事リスト
           </a>
         </div>
       </nav>

@@ -8,10 +8,14 @@ export const TaskAddInput = ({
 }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (!inputText) {
+      return;
+    }
     //カードを追加する処理
     setTaskList([
       ...taskList,
       {
+        id: Date.now(),
         text: inputText,
       },
     ]);

@@ -9,13 +9,13 @@ import "react-resizable/css/styles.css";
 const TaskCard = () => {
   const [inputText, setInputText] = useState("");
   const [taskList, setTaskList] = useState([]);
+
   return (
     <div className="taskCard has-background-link-light">
       <div className="mb-2">
         <div className="title taskCard-title">
           <TaskCardTitle />
         </div>
-        {/* <TaskCardDeleteButton /> */}
         <TaskAddInput
           inputText={inputText}
           setInputText={setInputText}
@@ -25,7 +25,11 @@ const TaskCard = () => {
       </div>
 
       <div>
-        <Tasks inputText={inputText} taskList={taskList} />
+        <Tasks
+          inputText={inputText}
+          taskList={taskList}
+          setTaskList={setTaskList}
+        />
       </div>
     </div>
   );

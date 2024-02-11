@@ -5,12 +5,10 @@ const TaskCardTitle = () => {
   const [inputtitle, setInputtitle] = useState("today");
 
   const handleClick = () => {
-    console.log(isclicked);
     setIsclicked(true);
   };
 
   const handleChange = (e) => {
-    console.log(e.target.value);
     setInputtitle(e.target.value);
   };
 

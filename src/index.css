@@ -12,6 +12,7 @@ code {
     monospace;
 }
 
+
 /* navbar */
 /* ナビゲーションバー全体をビューポートの幅に */
 .navbar {
@@ -24,6 +25,8 @@ code {
   margin: auto;
   height: 100vh;
 }
+
+
 
 .taskCard {
   width: 250px;
