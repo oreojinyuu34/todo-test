@@ -32,9 +32,10 @@ export const TaskAddInput = ({
         <input
           className="input checkbox"
           type="text"
-          placeholder="予定を追加"
+          placeholder="予定を追加※8文字以内"
           onChange={handleChange}
           value={inputText}
+          maxLength={8}
         />
       </form>
     </div>

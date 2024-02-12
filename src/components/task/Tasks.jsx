@@ -49,12 +49,12 @@ export const Tasks = ({ taskList, setTaskList }) => {
                 {" "}
                 <p className="taskText">{task.text}</p>
                 <div className="buttons has-addons are-small is-right is-small">
-                  <button
+                  {/* <button
                     type="button"
                     className="button is-info is-small mr-1 p-0"
                   >
                     <span className="material-symbols-outlined">edit</span>{" "}
-                  </button>
+                  </button> */}
                   <button
                     type="button"
                     className="button is-danger is-small p-0"
